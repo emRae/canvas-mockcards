@@ -1,10 +1,7 @@
 import React from 'react';
-import Boards from '../components/Boards';
+import Cards from '../components/Cards';
 
 class App extends React.Component {
-  componentDidMount() {
-    $(".button-collapse").sideNav();
-  }
 
   render() {
     return (
@@ -18,7 +15,7 @@ class App extends React.Component {
           </div>
         </nav>
         <div className="flex-container">
-          <Boards />
+          <Cards />
         </div>
       </div>
     );

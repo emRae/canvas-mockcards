@@ -31,3 +31,6 @@ npm-debug.log
 
 # No .DS_Store
 .DS_Store
+
+#Hide those secrets
+.env
