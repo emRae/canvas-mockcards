@@ -1,0 +1,96 @@
+/* -------- Box Sizing -------- */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+	font-family:'Roboto', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:'Roboto Condensed' Helvetica, Arial, sans-serif;
+}
+
+h1{font-size: 2.074em;}
+h2{font-size: 1.728em;}
+h3{font-size: 1.618em;}
+h4{font-size: 1.44em;}
+h5{font-size: 1.2em;}
+h6{font-size: 1em;}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 0.5em 0;
+}
+
+.section__heading{
+	font-size:2.074em;
+}
+
+p{margin:0 0 1rem 0;}
+
+.serif{
+	font-family: 'Noto Serif', Georgia, 'Times New Roman', serif;
+	font-style:italic;
+}
+
+.lead{
+	line-height:1.5;
+	font-size:1.5em;
+	color:#999;
+	font-weight:300;
+}
+
+a, a:active{
+  color:#a81010;
+}
+
+/* =================
+	Header 
+===================== */
+
+.nav-wrapper{
+  width:100%;
+  background-color:#ececec;
+}
+
+.brand-logo{
+  font-size:3em;
+  margin-left:0.5em;
+  text-decoration:none;
+  color:#333;
+  text-transform:uppercase;
+}
+
+
+/* =================
+	Utility Classes 
+===================== */
+
+.right{
+  float:right;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.red{
+	color:#a81010;
+}
+
+.aligncenter{
+	text-align: center;
+}
+
+.uppercase{text-transform: uppercase;}
+
+/* Responsive images */
+#main-content img {
+	max-width: 100%;
+	height: auto;
+}
