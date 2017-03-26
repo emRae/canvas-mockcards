@@ -62,7 +62,7 @@ a:hover, a:focus{
 
 .brand-logo{
   font-size:3em;
-  margin-left:0.5em;
+  margin-left:0.25em;
   text-decoration:none;
   color:#333;
   text-transform:uppercase;
@@ -73,7 +73,7 @@ a:hover, a:focus{
 	margin:0;
 	padding:0;
 	list-style:none;
-	margin-top:20px;
+	margin-top:25px;
 }
 
 #primary-nav li{
@@ -123,9 +123,6 @@ a:hover, a:focus{
     flex-direction:row;
   }
 }
-.col-4{
-  flex-basis: 24%;
-}
 
 .card__actions{
   flex-direction:row;
@@ -135,6 +132,7 @@ a:hover, a:focus{
 .card.col-4{
   margin:1rem 0 0;
   min-width: 240px;
+  flex-basis: 24%;
 }
 
 
@@ -149,6 +147,7 @@ a:hover, a:focus{
   border-top:2px solid #ececec;
   border-left:2px solid #ececec;
   border-right:2px solid #ececec;
+  padding-bottom:45px;
 }
 
 .card__edit-icon{
@@ -163,6 +162,7 @@ a:hover, a:focus{
 .card__title{
   font-size:1.25em;
   margin-bottom:0;
+  line-height: 1.25;
 }
 
 .card__title a{text-decoration:none;}
@@ -186,11 +186,19 @@ a:hover, a:focus{
   left:0;
   right:0;
   bottom:0;
-  opacity:0.5;
+  opacity:0.75;
 }
 
 .card__bottom{
-  padding:1em;
+  padding:1em 1em 0 1em;
+}
+
+.card__actions{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding: 0em 1em 0.5em;
 }
 
 .card__actions a{
@@ -205,38 +213,38 @@ a:hover, a:focus{
 }
  
 .card:nth-child(5n+1){
-   border-bottom: 5px solid green;
+   border-bottom: 5px solid #00ae1d;
 }
 .card:nth-child(5n+1) .card__img-overlay{
-  background-color:green;
+  background-color:#00ae1d;
 }
 
 .card:nth-child(5n+2){
-   border-bottom: 5px solid purple;
+   border-bottom: 5px solid #9a257d;
 }
 .card:nth-child(5n+2) .card__img-overlay{
-  background-color: purple;
+  background-color: #9a257d;
 }
 
 .card:nth-child(5n+3){
-   border-bottom: 5px solid red;
+   border-bottom: 5px solid #f00618;
 }
 .card:nth-child(5n+3) .card__img-overlay{
-  background-color: red;
+  background-color: #f00618;
 }
 
 .card:nth-child(5n+4){
-   border-bottom: 5px solid blue;
+   border-bottom: 5px solid #047ecf;
 }
 .card:nth-child(5n+4) .card__img-overlay{
-  background-color: blue;
+  background-color: #047ecf;
 }
 
 .card:nth-child(5n+5){
-   border-bottom: 5px solid orangered;
+   border-bottom: 5px solid #fd5f15;
 }
 .card:nth-child(5n+5) .card__img-overlay{
-  background-color: orangered;
+  background-color: #fd5f15;
 }
 
 
