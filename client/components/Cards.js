@@ -9,7 +9,7 @@ class Cards extends Component {
       type: 'GET',
       dataType: 'JSON'
     }).done( cards => {
-      console.log(cards);
+      // console.log(cards);
       this.setState({ cards });
     }).fail( err => {
       // handle fail better
@@ -40,7 +40,11 @@ class Cards extends Component {
                     <h3 className="card__subtitle">{card.code}</h3>
                     <div className="card__description">
                       <p>{card.description}</p>
-                    </div>  
+                      <div className="card__description--fade-out"></div>
+                    </div>
+                    <div className="card__description-bottom">
+                      <a href="" className="card__toggle-link">&#x25BC;</a>
+                    </div> 
                     <div className="card__actions spaced-row">
                       <a href="#" className="col-4"><i className="fa fa-file" aria-hidden="true"></i></a>
                       <a href="#" className="col-4"><i className="fa fa-bullhorn" aria-hidden="true"></i></a>
